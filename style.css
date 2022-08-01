@@ -1,0 +1,147 @@
+html {
+    background-color: #f2f2f2;
+}
+
+#space {
+height: 120px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(158, 177, 194);
+    height:  500px;
+    width: 922px;
+    margin: auto;
+    border-radius: 10px;
+}
+img {
+
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    color:#f2f2f0;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: #f2f2f0;
+    margin-bottom: 90px;
+    line-height: 1.75em;
+}
+
+.sedans {
+    diplay: relative;
+    background-color: #e28525;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px;
+
+}
+
+.suvs {
+    background-color: #016972;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+
+   
+}
+
+.Luxury {
+    background-color: #00403f;
+    border-radius: 0px 10px 10px 0px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 0px 10px 10px 0px;
+    padding: 50px;
+
+}
+
+#button-one {
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    list-style: none;
+    color: #e28525;
+}
+
+#button-two {
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    list-style: none;
+    color: #016972;
+}
+
+#button-three {
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    list-style: none;
+    color: #00403f;
+}
+
+
+@media (max-width: 600px) {
+
+    p{
+        font-size: 18px;
+    }
+
+    .container {  
+    grid-template-columns: auto;
+    width: 390px;
+    }
+
+    .sedans {
+        display: relative;
+        background-color: #e28525;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        border-radius: 10px 10px 0px 0px;
+        padding: 60px;
+    }
+
+    .suvs {
+        background-color: #016972;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding: 50px;
+    }
+    
+        .Luxury {
+            background-color: #00403f;
+            border-radius: 0px 10px 10px 0px;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            border-radius: 0px 0px 10px 10px;
+            padding: 60px;
+        }
+        #button-one {
+            height: 60px;
+            width: 180px;
+            border-radius: 100px;
+            border: none;
+            list-style: none;
+            color: #e28525;
+        }
+        
+        #button-two {
+            height: 60px;
+            width: 180px;
+            border-radius: 100px;
+            border: none;
+            list-style: none;
+            color: #016972;
+        }
+        
+        #button-three {
+            height: 60px;
+            width: 180px;
+            border-radius: 100px;
+            border: none;
+            list-style: none;
+            color: #00403f;
+        }
+}
